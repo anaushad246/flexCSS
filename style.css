@@ -1,0 +1,265 @@
+#container{
+    width: 90vw;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    /* flex-direction: row; */
+    gap: 1rem;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    
+}
+.boxes{
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+    background-image: url("https://cdn.pixabay.com/photo/2024/08/04/09/02/cat-8943928_640.png");
+    background-size: contain; 
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+/* section2 styling start */
+.s2{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.s2Item{
+    width: 70%;
+    background: #c7dce9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 3rem ;
+    
+    gap: 1rem;
+}
+.s2Items{
+    width: 30%;
+    height: auto;
+    border: 1px solid saddlebrown;
+    padding: 0.5rem;
+    background-color: aliceblue;
+    /* background-image: url("https://cdn.pixabay.com/photo/2024/07/12/18/00/frog-8890832_640.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.s2Items img{
+    width: 100%;
+    height: 50%;
+}
+/* section 3 start */
+.s3{
+    width: 100%;
+    border: 1px solid black;
+}
+.s3Item1{
+    height: 150px;
+}
+.s3Item2{
+    background-color: black;
+}
+/* section 3 end */
+/* Footer Styles */
+.footer {
+    /* position:relative; */
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .footer-item {
+    margin-right: 20px;
+  }
+  
+  .footer-item h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-item li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-item a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-item a:hover {
+    color: #ccc;
+  }
+  /* section 4 start */
+ 
+
+.s4 {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.signIn-btn {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signIn-btn:hover {
+    background-color: #357ae8;
+}
+
+.hero-section {
+    padding: 40px;
+}
+
+.hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.createAccount-btn {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.createAccount-btn:hover {
+    background-color: #357ae8;
+}
+
+.features-section {
+    padding: 40px;
+}
+
+.feature {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.feature img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+  /* section 4 end */
+  /* section 5 start */
+  .s5 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    min-height: 300px; /* Set a minimum height to ensure equal heights */
+}
+
+.column h2 {
+    margin-top: 0;
+}
+  /* section 5 end */
+  /* section 6 start */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.search-btn {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.mic-btn {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.lens-btn {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+  /* section 6 end */
+  /* section 8 start */
+  .avatar img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid slateblue;
+    border-radius: 80%;
+    margin-left: -1rem;
+  }
+  /* section 8 end */
